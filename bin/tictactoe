@@ -7,4 +7,4 @@ puts "Welcome to Tic Tac Toe!"
 
 game = TicTacToe.new
 # Make sure to execute #play below
-TicTacToe.play
+game.play
