@@ -45,6 +45,7 @@ class TicTacToe
     until valid_move?(index)
       puts "Please enter 1-9:"
       input = gets
+      input = gets
       index = input_to_index(input)
     end
       move(index, current_player)
